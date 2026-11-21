@@ -1,5 +1,5 @@
 version: 2
-updates:
+updates: # instructions for Dependabot to check for updates
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:

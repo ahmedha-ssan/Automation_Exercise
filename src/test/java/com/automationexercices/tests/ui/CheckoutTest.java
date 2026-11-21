@@ -44,6 +44,7 @@ public class CheckoutTest extends BaseTest {
                 )
                 .verifyUserCreatedSuccessfully();
     }
+
     @Test(dependsOnMethods = "registerNewAccount")
     public void loginToAccount() {
         new SignupLoginPage(driver).navigate()
