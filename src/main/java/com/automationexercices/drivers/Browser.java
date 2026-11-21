@@ -12,18 +12,6 @@ public enum Browser {
         public AbstractDriver getDriverFactory() {
             return new EdgeFactory();
         }
-    },
-    FIREFOX {
-        @Override
-        public AbstractDriver getDriverFactory() {
-            return new FirefoxFactory();
-        }
-    },
-    SAFARI {
-        @Override
-        public AbstractDriver getDriverFactory() {
-            return new SafariFactory();
-        }
     };
 
     public abstract AbstractDriver getDriverFactory();
